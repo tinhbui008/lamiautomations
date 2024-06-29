@@ -1,6 +1,15 @@
+.text-orange {
+    color: orangered;
+}
+
+
+.bg-orange {
+    background-color: orangered !important;
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
-    content: "\f107";
+    content: "\f279";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
