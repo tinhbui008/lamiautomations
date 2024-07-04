@@ -1,6 +1,7 @@
+
 .swiper {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .swiper-slide {
@@ -18,7 +19,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .slide-item {
@@ -28,18 +29,65 @@
   bottom: 0; */
 }
 
-
-
-@media (max-width: 991.98px) {
-  .swiper {
-    width: 100%;
-    height: 40vh;
-  }
+.slide-item .title {
+  color: #fff;
 }
 
-/* @media (min-width: 992px) {
-  .swiper {
-    width: 100%;
-    height: 100%;
+.btn-outline-warning {
+  text-transform: uppercase;
+}
+
+.text-orange {
+  color: orangered;
+}
+
+.read_more-button {
+  background-color: orangered;
+  outline: none;
+  border: none;
+  padding: 10px 14px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.read_more-button:hover {
+  background-color: #fff;
+  color: #000;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: #fff;}
+}
+
+@media (max-width: 991.98px) {
+  .text-orange {
+    font-size: 14px;
   }
+
+  .text-white {
+    font-size: 10px;
+  }
+
+  .h-50vh {
+    height: 50vh !important;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .text-orange {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+/* 
+@media (min-width: 992px) {
+
 } */
