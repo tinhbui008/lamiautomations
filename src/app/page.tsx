@@ -4,6 +4,11 @@ import TopBar from "@/components/TopBar";
 import Image from "next/image";
 import Feature from "@/components/Feature";
 import About from "@/components/About";
+import Service from "@/components/Service";
+import Project from "@/components/Project";
+import Quote from "@/components/Quote";
+import Testimonial from "@/components/Testimonial";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +18,11 @@ export default function Home() {
       <Slide />
       <Feature />
       <About />
+      <Service />
+      <Project />
+      <Quote />
+      <Testimonial />
+      <Footer />
     </main>
   );
 }
