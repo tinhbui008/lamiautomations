@@ -1,21 +1,10 @@
-.icon-2em {
-    font-size: 2.5em;
-    color: darkorange;
+.page-header {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../images/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
 }
 
-.text-darkorange {
-    color: darkorange;
-}
-
-.font-weight-bold {
-    font-weight: bold;
-}
-
-.btn-explore {
-    background-color: darkorange;
-    border: none;
-    outline: none;
-    text-decoration: none;
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #fff;
 }
 
 @media (min-width: 992px) {

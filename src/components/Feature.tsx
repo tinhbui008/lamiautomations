@@ -13,7 +13,7 @@ export default function Feature() {
                 {/* <i className="bi bi-facebook text-primary"></i> */}
                 <i className="bi bi-person-check-fill icon-3em"></i>
               </div>
-              <h1 className="display-1 text-black text-opacity-50 mb-0">01</h1>
+              <h1 className="display-1 text-black text-opacity-50 mb-0 font-weight__bold">01</h1>
             </div>
             <h5 className="text-bold">Creative Designers</h5>
           </div>
@@ -24,7 +24,7 @@ export default function Feature() {
                 {/* <i className="bi bi-facebook text-primary"></i> */}
                 <i className="bi bi-check-lg icon-3em"></i>
               </div>
-              <h1 className="display-1 text-black text-opacity-50 mb-0">02</h1>
+              <h1 className="display-1 text-black text-opacity-50 mb-0 font-weight__bold">02</h1>
             </div>
             <h5 className="text-bold">Quality Products</h5>
           </div>
@@ -35,7 +35,7 @@ export default function Feature() {
                 {/* <i className="bi bi-facebook text-primary"></i> */}
                 <i className="bi bi-pen icon-3em"></i>
               </div>
-              <h1 className="display-1 text-black text-opacity-50 mb-0">03</h1>
+              <h1 className="display-1 text-black text-opacity-50 mb-0 font-weight__bold">03</h1>
             </div>
             <h5 className="text-bold">Free Consultation</h5>
           </div>
@@ -46,7 +46,7 @@ export default function Feature() {
                 {/* <i className="bi bi-facebook text-primary"></i> */}
                 <i className="bi bi-headphones icon-3em"></i>
               </div>
-              <h1 className="display-1 text-black text-opacity-50 mb-0">04</h1>
+              <h1 className="display-1 text-black text-opacity-50 mb-0 font-weight__bold">04</h1>
             </div>
             <h5 className="text-bold">Customer Support</h5>
           </div>

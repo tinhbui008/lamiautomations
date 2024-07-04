@@ -12,5 +12,8 @@
 
 
 
-
+.font-weight__bold {
+    font-weight: bold;
+    opacity: 0.2;
+}
 

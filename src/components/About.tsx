@@ -74,7 +74,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <a href="" className="btn btn-primary py-3 px-5">
+                <a className="btn-explore py-3 px-5 text-white">
                   Explore More
                 </a>
               </div>

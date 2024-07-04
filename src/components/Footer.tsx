@@ -19,7 +19,7 @@ export default function Footer() {
               <i className="bi bi-telephone-fill me-3"></i>+012 345 67890
             </p>
             <p className="mb-2">
-              <i className="bi bi-envelope-fill me-3"></i>info@example.com
+              <i className="bi bi-envelope-fill me-3"></i>abcxyz@gmail.com
             </p>
             <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">
@@ -86,7 +86,7 @@ export default function Footer() {
               />
               <button
                 type="button"
-                className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                className="btn-signup py-2 position-absolute top-0 end-0 mt-2 me-2"
               >
                 SignUp
               </button>

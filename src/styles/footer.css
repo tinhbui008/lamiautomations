@@ -2,6 +2,13 @@
     text-decoration: none !important;
 }
 
+.btn-signup {
+    border: none;
+    background-color: darkorange !important;
+    color: #fff;
+    padding: 10px 14px;
+}
+
 .footer {
     background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../images/footer.jpg) center center no-repeat;
     background-size: cover;
