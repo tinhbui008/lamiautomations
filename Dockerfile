@@ -1,19 +1,16 @@
-# FROM node:18-alpine AS build
+FROM node:18-alpine AS production
 
-# WORKDIR /app
-# COPY package*.json ./
-# RUN npm ci
-# COPY . .
-# RUN npm run build
-
-FROM node:18-alpine AS runtime
-
+# Set the working directory
 WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY --from=build /app/.next ./.next
-COPY --from=build /app/public ./public
 
+# Copy the built files from the builder stage
+COPY --from=builder /app ./
+
+# Install only production dependencies
+RUN npm ci --only=production
+
+# Expose the port the app runs on
 EXPOSE 3001
-USER node
+
+# Start the Next.js app
 CMD ["npm", "start"]
