@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="mt-8">
         <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 className="m-0 text-orange">ABCXYZ</h2>
+            <h2 className="m-0 text-orange">LAMIAUTOMATIONS</h2>
         </a>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
