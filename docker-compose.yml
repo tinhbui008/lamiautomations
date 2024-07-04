@@ -1,9 +1,10 @@
-version: '3.9'
-
+version: "3"
 services:
-  nextapp:
-    container_name: nextapp
-    image: nextapp
-    build: .
+  next-app:
+    container_name: docker-next-js
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
     ports:
-      - "3001:3001"
+      - 3001:3001
