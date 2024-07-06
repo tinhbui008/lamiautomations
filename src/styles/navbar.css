@@ -55,9 +55,16 @@
     font-weight: 500;
 }
 
-.navbar-light.sticky-top {
-    top: -100px;
-    transition: .5s;
+.navbar-light .sticky-top {
+    position: sticky !important;
+    top: -100px !important;
+    transition: .5s !important;
+}
+
+.navbar-fix {
+    position: fixed !important;
+    width: 100% !important;
+    transition: ease-in-out .1s;
 }
 
 @media (min-width: 992px) {

@@ -15,7 +15,7 @@ export default function page() {
     <div>
       <TopBar />
       <Navbar />
-      <PageHeader />
+      <PageHeader title="About" />
       <Feature />
       <About />
       <Footer />
