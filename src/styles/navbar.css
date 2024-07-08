@@ -64,7 +64,7 @@
 .navbar-fix {
     position: fixed !important;
     width: 100% !important;
-    transition: ease-in-out .1s;
+    transition: ease-in-outdocker .1s;
 }
 
 @media (min-width: 992px) {
