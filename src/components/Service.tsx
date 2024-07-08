@@ -8,7 +8,7 @@ export default function Service() {
     <div className="container-xxl py-5">
       <div className="container">
         <div className="section-title text-center">
-          <h1 className="display-5 mb-5 font-weight-bold">Our Services</h1>
+          <h1 className="display-5 mb-5 font-weight-bold color-f37523">Our Services</h1>
         </div>
         <div className="row g-4">
           <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -19,14 +19,13 @@ export default function Service() {
                 <Image src={image} alt="" className="img-fluid" />
               </div>
               <div className="p-4 text-center border border-5 border-light border-top-0">
-                <h4 className="mb-3">General Carpentry</h4>
+                <h4 className="mb-3 color-1c4185">General Carpentry</h4>
                 <p>
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam
                   lorem diam.
                 </p>
                 <a className="fw-medium text-decoration-none text-orangered" href="">
                   Read More
-                  {/* <i className="fa fa-arrow-right ms-2"></i> */}
                   <i className="bi bi-arrow-right px-2 font-weight-bold"></i>
                 </a>
               </div>
@@ -38,7 +37,7 @@ export default function Service() {
                 <Image src={image} alt="" className="img-fluid" />
               </div>
               <div className="p-4 text-center border border-5 border-light border-top-0">
-                <h4 className="mb-3">Furniture Manufacturing</h4>
+                <h4 className="mb-3 color-1c4185">Furniture Manufacturing</h4>
                 <p>
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam
                   lorem diam.
@@ -57,7 +56,7 @@ export default function Service() {
                 <Image src={image} alt="" className="img-fluid" />
               </div>
               <div className="p-4 text-center border border-5 border-light border-top-0">
-                <h4 className="mb-3">Furniture Remodeling</h4>
+                <h4 className="mb-3 color-1c4185">Furniture Remodeling</h4>
                 <p>
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam
                   lorem diam.
@@ -76,7 +75,7 @@ export default function Service() {
                 <Image src={image} alt="" className="img-fluid" />
               </div>
               <div className="p-4 text-center border border-5 border-light border-top-0">
-                <h4 className="mb-3">Wooden Floor</h4>
+                <h4 className="mb-3 color-1c4185">Wooden Floor</h4>
                 <p>
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam
                   lorem diam.
@@ -95,7 +94,7 @@ export default function Service() {
                 <Image src={image} alt="" className="img-fluid" />
               </div>
               <div className="p-4 text-center border border-5 border-light border-top-0">
-                <h4 className="mb-3">Wooden Furniture</h4>
+                <h4 className="mb-3 color-1c4185">Wooden Furniture</h4>
                 <p>
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam
                   lorem diam.
@@ -114,14 +113,13 @@ export default function Service() {
                 <Image src={image} alt="" className="img-fluid" />
               </div>
               <div className="p-4 text-center border border-5 border-light border-top-0">
-                <h4 className="mb-3">Custom Work</h4>
+                <h4 className="mb-3 color-1c4185">Custom Work</h4>
                 <p>
                   Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam
                   lorem diam.
                 </p>
                 <a className="fw-medium text-decoration-none text-orangered" href="">
                   Read More
-                  {/* <i className="fa fa-arrow-right ms-2"></i> */}
                   <i className="bi bi-arrow-right px-2 font-weight-bold"></i>
                 </a>
               </div>

@@ -6,8 +6,8 @@ type propsType = {
 }
 
 export default function PageHeader(props:propsType) {
-
   const {title} = props; 
+
   return (
     <div className="container-fluid page-header py-5 mb-5">
     <div className="container py-5">

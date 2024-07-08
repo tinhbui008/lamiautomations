@@ -10,12 +10,6 @@ export default function Quote() {
         <div className="row g-0 mx-lg-0">
           <div className="col-lg-6 ps-lg-0" style={{ minHeight: "400px" }}>
             <div className="position-relative h-100">
-              {/* <img
-                className="position-absolute img-fluid w-100 h-100"
-                src="img/quote.jpg"
-                style={{ objectFit: "cover" }}
-                alt=""
-              /> */}
               <Image src={image} style={{ objectFit: "cover" }} className="position-absolute img-fluid w-100 h-100" alt="" />
             </div>
           </div>
@@ -25,7 +19,7 @@ export default function Quote() {
           >
             <div className="p-lg-5 pe-lg-0">
               <div className="section-title text-start">
-                <h1 className="display-5 mb-4 font-weight-bold">Free Quote</h1>
+                <h1 className="display-5 mb-4 font-weight-bold color-f37523">Free Quote</h1>
               </div>
               <p className="mb-4 pb-2">
                 Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
@@ -78,7 +72,7 @@ export default function Quote() {
                   </div>
                   <div className="col-12">
                     <button
-                      className="w-100 py-3 btn-submit"
+                      className="w-100 py-3 btn-submit bg-1c4185"
                       type="submit"
                     >
                       Submit

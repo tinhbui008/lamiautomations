@@ -4,6 +4,14 @@
     background-color: orangered;
 }
 
+.bg-1c4185 {
+    background-color: #1c4185 !important;
+}
+
+.color-f37523 {
+    color: #f37523;
+}
+
 .font-weight-bold {
     font-weight: bold;
 }

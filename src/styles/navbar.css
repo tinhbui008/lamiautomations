@@ -1,87 +1,102 @@
-
-
 .text-orange {
-    color: orangered;
-    font-family: 'Saira', sans-serif;
+  color: orangered;
+  font-family: "Saira", sans-serif;
 }
 
+.btn-quote {
+  outline: none;
+  border: none;
+  height: 100% !important;
+}
 
 .bg-orange {
-    background-color: orangered !important;
+  background-color: orangered !important;
+}
+
+.bg-1c4185 {
+  background-color: #1c4185;
+}
+
+.bg-f37523 {
+    background-color: #f37523;
+}
+
+.color-f37523 {
+    color: #f37523;
 }
 
 .navbar .dropdown-toggle::after {
-    border: none;
-    content: "\f279";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    vertical-align: middle;
-    margin-left: 8px;
+  border: none;
+  content: "\f279";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 8px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    margin-right: 30px;
-    padding: 25px 0;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    outline: none;
+  margin-right: 30px;
+  padding: 25px 0;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+  color: #f37523;
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
-        margin-right: 0;
-        padding: 10px 0;
-    }
+  .navbar-light .navbar-nav .nav-link {
+    margin-right: 0;
+    padding: 10px 0;
+  }
 
-    .navbar-light .navbar-nav {
-        border-top: 1px solid #EEEEEE;
-    }
+  .navbar-light .navbar-nav {
+    border-top: 1px solid #eeeeee;
+  }
 }
 
 .navbar-light .navbar-brand,
 .navbar-light a.btn {
-    height: 75px;
+  height: 75px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
-    font-weight: 500;
+  color: var(--dark);
+  font-weight: 500;
 }
 
 .navbar-light .sticky-top {
-    position: sticky !important;
-    top: -100px !important;
-    transition: .5s !important;
+  position: sticky !important;
+  top: -100px !important;
+  transition: 0.5s !important;
 }
 
 .navbar-fix {
-    position: fixed !important;
-    width: 100% !important;
-    transition: ease-in-outdocker .1s;
+  position: fixed !important;
+  width: 100% !important;
+  transition: ease-in-outdocker 0.1s;
 }
 
 @media (min-width: 992px) {
-    .navbar .nav-item .dropdown-menu {
-        display: block;
-        border: none;
-        margin-top: 0;
-        top: 150%;
-        opacity: 0;
-        visibility: hidden;
-        transition: .5s;
-    }
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    border: none;
+    margin-top: 0;
+    top: 150%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
 
-    .navbar .nav-item:hover .dropdown-menu {
-        top: 100%;
-        visibility: visible;
-        transition: .5s;
-        opacity: 1;
-    }
+  .navbar .nav-item:hover .dropdown-menu {
+    top: 100%;
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
+  }
 }

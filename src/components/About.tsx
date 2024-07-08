@@ -11,8 +11,6 @@ export default function About() {
           <div className="row g-0 mx-lg-0">
             <div className="col-lg-6 ps-lg-0" style={{ minHeight: "400px" }}>
               <div className="position-relative h-100">
-                {/* <img className="position-absolute img-fluid w-100 h-100" src="img/about.jpg" 
-                style={{objectFit: "cover"}} alt="" /> */}
                 <Image
                   src={image}
                   alt=""
@@ -26,7 +24,7 @@ export default function About() {
             >
               <div className="p-lg-5 pe-lg-0">
                 <div className="section-title text-start">
-                  <h1 className="display-5 mb-4 font-weight-bold">About Us</h1>
+                  <h1 className="display-5 mb-4 font-weight-bold color-f37523">About Us</h1>
                 </div>
                 <p className="mb-4 pb-2">
                   Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
@@ -74,7 +72,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <a className="btn-explore py-3 px-5 text-white">
+                <a className="btn-explore py-3 px-5 text-white bg-f37523">
                   Explore More
                 </a>
               </div>

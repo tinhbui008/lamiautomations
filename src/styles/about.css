@@ -1,3 +1,14 @@
+
+.section-title h1::before,
+.section-title h1::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 5px;
+    bottom: 0;
+    background: #f37523 !important;
+}
+
 .icon-2em {
     font-size: 2.5em;
     color: darkorange;
@@ -9,6 +20,14 @@
 
 .font-weight-bold {
     font-weight: bold;
+}
+
+.color-f37523 {
+    color: #f37523 !important;
+}
+
+.bg-f37523 {
+    background-color: #f37523 !important;
 }
 
 .btn-explore {

@@ -1,6 +1,12 @@
-/* i.bi {
-    font-size: 3em;
-} */
+
+.color-f37523 {
+    color: #f37523;
+}
+
+.color-f37523 {
+    color: #f37523;
+    opacity: 0.8;
+}
 
 .text-bold {
     font-weight: bold;
@@ -10,10 +16,12 @@
     font-size: 3em;
 }
 
-
+.color-1c4185 {
+    color: #1c4185 !important;
+}
 
 .font-weight__bold {
     font-weight: bold;
-    opacity: 0.2;
+    opacity: 0.8;
 }
 

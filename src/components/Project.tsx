@@ -8,7 +8,7 @@ export default function Project() {
     <div className="container-xxl py-5">
       <div className="container">
         <div className="section-title text-center">
-          <h1 className="display-5 mb-5 font-weight-bold">Projects</h1>
+          <h1 className="display-5 mb-5 font-weight-bold color-f37523">Projects</h1>
         </div>
         {/* <div className="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
             <div className="col-12 text-center">
@@ -43,10 +43,10 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 text-orangered">General Carpentry</p>
-                <h5 className="lh-base mb-0">
+                <p className="text-primary fw-medium mb-2 color-1c4185 ">General Carpentry</p>
+                <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
-                </h5>
+                </h6>
               </div>
             </div>
           </div>
@@ -73,10 +73,10 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 text-orangered">Custom Carpentry</p>
-                <h5 className="lh-base mb-0">
+                <p className="text-primary fw-medium mb-2 color-1c4185">Custom Carpentry</p>
+                <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
-                </h5>
+                </h6>
               </div>
             </div>
           </div>
@@ -103,10 +103,10 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 text-orangered">General Carpentry</p>
-                <h5 className="lh-base mb-0">
+                <p className="text-primary fw-medium mb-2 color-1c4185">General Carpentry</p>
+                <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
-                </h5>
+                </h6>
               </div>
             </div>
           </div>
@@ -133,10 +133,10 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 text-orangered">Custom Carpentry</p>
-                <h5 className="lh-base mb-0">
+                <p className="text-primary fw-medium mb-2 color-1c4185">Custom Carpentry</p>
+                <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
-                </h5>
+                </h6>
               </div>
             </div>
           </div>
@@ -163,10 +163,10 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 text-orangered">General Carpentry</p>
-                <h5 className="lh-base mb-0">
+                <p className="text-primary fw-medium mb-2 color-1c4185">General Carpentry</p>
+                <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
-                </h5>
+                </h6>
               </div>
             </div>
           </div>
@@ -193,10 +193,10 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 text-orangered">Custom Carpentry</p>
-                <h5 className="lh-base mb-0">
+                <p className="text-primary fw-medium mb-2 color-1c4185">Custom Carpentry</p>
+                <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
-                </h5>
+                </h6>
               </div>
             </div>
           </div>

@@ -4,6 +4,16 @@
     --dark: #353535;
 }
 
+.color-f37523 {
+    color: #f37523;
+    opacity: 0.8;
+}
+
+.color-1c4185 {
+    color: #1c4185 !important;
+    font-weight: bold;
+}
+
 .section-title h1 {
     position: relative;
     display: inline-block;

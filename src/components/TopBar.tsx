@@ -10,13 +10,13 @@ export default function TopBar() {
           <div className="col-lg-7 px-5 text-start">
             <div className="h-100 d-inline-flex align-items-center py-3 me-4">
               <small className="me-2">
-                <i className="bi bi-geo-alt icon-orange"></i>
+                <i className="bi bi-geo-alt color-f37523"></i>
               </small>
               <small>Go Vap District, Ho Chi Minh, Viet Nam</small>
             </div>
             <div className="h-100 d-inline-flex align-items-center py-3">
               <small className="me-2">
-                <i className="bi bi-clock icon-orange"></i>
+                <i className="bi bi-clock color-f37523"></i>
               </small>
               <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
             </div>
@@ -28,16 +28,16 @@ export default function TopBar() {
             </div>
             <div className="h-100 d-inline-flex align-items-center">
               <a className="btn btn-sm-square bg-white me-1" href="">
-                <i className="bi bi-facebook icon-orange"></i>
+                <i className="bi bi-facebook color-f37523"></i>
               </a>
               <a className="btn btn-sm-square bg-white me-1" href="">
-                <i className="bi bi-twitter icon-orange"></i>
+                <i className="bi bi-twitter color-f37523"></i>
               </a>
               <a className="btn btn-sm-square bg-white me-1" href="">
-                <i className="bi bi-linkedin icon-orange"></i>
+                <i className="bi bi-linkedin color-f37523"></i>
               </a>
               <a className="btn btn-sm-square bg-white me-0" href="">
-                <i className="bi bi-instagram icon-orange"></i>
+                <i className="bi bi-instagram color-f37523"></i>
               </a>
             </div>
           </div>
