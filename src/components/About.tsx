@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import image from "@/images/carousel-1.jpg";
 import "@/styles/about.css";
+import "@/app/globals.css";
 
 export default function About() {
   return (
@@ -72,7 +73,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <a className="btn-explore py-3 px-5 text-white bg-f37523">
+                <a className="btn-explore py-3 px-5 text-white bg-1c4185">
                   Explore More
                 </a>
               </div>

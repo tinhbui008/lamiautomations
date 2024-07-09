@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container py-5">
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Address</h4>
+            <h4 className="text-light mb-4 color-f37523">Address</h4>
             <p className="mb-2">
               <i className="bi bi-geo-alt-fill me-3"></i>
               123 Street, New York, USA
@@ -37,7 +37,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Services</h4>
+            <h4 className="text-light mb-4 color-f37523">Services</h4>
             <a className="btn btn-link" href="">
               General Carpentry
             </a>
@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Quick Links</h4>
+            <h4 className="text-light mb-4 color-f37523">Quick Links</h4>
             <a className="btn btn-link" href="">
               About Us
             </a>
@@ -73,7 +73,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="col-lg-3 col-md-6">
-            <h4 className="text-light mb-4">Newsletter</h4>
+            <h4 className="text-light mb-4 color-f37523">Newsletter</h4>
             <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
             <div
               className="position-relative mx-auto"
@@ -86,7 +86,8 @@ export default function Footer() {
               />
               <button
                 type="button"
-                className="btn-signup py-2 position-absolute top-0 end-0 mt-2 me-2"
+                className="btn-signup py-2 position-absolute 
+                top-0 end-0 mt-2 me-2 bg-f37523"
               >
                 SignUp
               </button>

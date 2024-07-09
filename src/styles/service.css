@@ -26,12 +26,12 @@
 
 .section-title h1::before,
 .section-title h1::after {
-    position: absolute;
+    /* position: absolute;
     content: "";
     width: 45px;
     height: 5px;
-    bottom: 0;
-    background: var(--dark);
+    bottom: 0; */
+    background: #f37523;
 }
 
 .section-title h1::before {

@@ -107,13 +107,25 @@
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/footer.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
+.color-1c4185 {
+    color: #1c4185;
+}
+
+.color-f37523 {
+    color: #f37523 !important;
+    font-weight: bold;
+}
+
+.bg-f37523 {
+    background-color: #f37523 !important;
+}
+
 .btn-link {
     text-decoration: none !important;
 }
 
 .btn-signup {
     border: none;
-    background-color: darkorange !important;
     color: #fff;
     padding: 10px 14px;
 }
@@ -247,12 +259,12 @@
 
 .section-title h1::before,
 .section-title h1::after {
-    position: absolute;
+    /* position: absolute;
     content: "";
     width: 45px;
     height: 5px;
-    bottom: 0;
-    background: var(--dark);
+    bottom: 0; */
+    background: #f37523;
 }
 
 .section-title h1::before {

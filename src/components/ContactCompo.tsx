@@ -1,5 +1,6 @@
 import React from 'react'
 import "@/styles/contactcompo.css";
+import "@/app/globals.css";
 
 export default function ContactCompo() {
   return (
@@ -9,10 +10,13 @@ export default function ContactCompo() {
             <div className="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
                 <div className="p-lg-5 ps-lg-0">
                     <div className="section-title text-start">
-                        <h1 className="display-5 mb-4">Contact Us</h1>
+                        <h1 className="display-5 mb-4 color-f37523">Contact Us</h1>
                     </div>
-                    <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. 
-                      <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    {/* <p className="mb-4">The contact form is currently inactive. 
+                        Get a functional and working contact form with Ajax & PHP 
+                        in a few minutes. Just copy and paste the files, 
+                        add a little code and you're done. 
+                      <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> */}
                     <form>
                         <div className="row g-3">
                             <div className="col-md-6">
@@ -40,7 +44,7 @@ export default function ContactCompo() {
                                 </div>
                             </div>
                             <div className="col-12">
-                                <button className="w-100 py-3 btn-send-message" type="submit">Send Message</button>
+                                <button className="w-100 py-3 btn-send-message bg-f37523" type="submit">Submit</button>
                             </div>
                         </div>
                     </form>

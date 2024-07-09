@@ -2080,6 +2080,119 @@ url(/_next/static/media/bootstrap-icons.70a9dee9.woff) format("woff");
 .bi-suitcase2::before { content: "\f902"; }
 .bi-vignette::before { content: "\f903"; }
 
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+/* @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
+
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  } */
+
+.section-title h1 {
+  position: relative;
+  display: inline-block;
+  padding: 0 60px;
+}
+
+.section-title.text-start h1 {
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.section-title h1::before,
+.section-title h1::after {
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 5px;
+  bottom: 0;
+  background: #f37523;
+}
+
+.section-title h1::before {
+  left: 0;
+}
+
+.section-title h1::after {
+  right: 0;
+}
+
+.section-title.text-start h1::before {
+  display: none;
+}
+
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/navbar.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
@@ -2941,66 +3054,65 @@ button.swiper-pagination-bullet {
 /*!******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/about.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************/
-
-.section-title h1::before,
+/* 
 .section-title h1::after {
-    position: absolute;
-    content: "";
-    width: 45px;
-    height: 5px;
-    bottom: 0;
     background: #f37523 !important;
+} */
+
+.bg-1c4185 {
+  background-color: #1c4185 !important;
 }
 
 .icon-2em {
-    font-size: 2.5em;
-    color: darkorange;
+  font-size: 2.5em;
+  color: darkorange;
 }
 
 .text-darkorange {
-    color: darkorange;
+  color: darkorange;
 }
 
 .font-weight-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .color-f37523 {
-    color: #f37523 !important;
+  color: #f37523 !important;
 }
 
 .bg-f37523 {
-    background-color: #f37523 !important;
+  background-color: #f37523 !important;
 }
 
 .btn-explore {
-    background-color: darkorange;
-    border: none;
-    outline: none;
-    text-decoration: none;
+  background-color: darkorange;
+  border: none;
+  outline: none;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
-    .container.about {
-        max-width: 100% !important;
-    }
+  .container.about {
+    max-width: 100% !important;
+  }
 
-    .about-text  {
-        padding-right: calc(((100% - 960px) / 2) + .75rem);
-    }
+  .about-text {
+    padding-right: calc(((100% - 960px) / 2) + 0.75rem);
+  }
 }
 
 @media (min-width: 1200px) {
-    .about-text  {
-        padding-right: calc(((100% - 1140px) / 2) + .75rem);
-    }
+  .about-text {
+    padding-right: calc(((100% - 1140px) / 2) + 0.75rem);
+  }
 }
 
 @media (min-width: 1400px) {
-    .about-text  {
-        padding-right: calc(((100% - 1320px) / 2) + .75rem);
-    }
+  .about-text {
+    padding-right: calc(((100% - 1320px) / 2) + 0.75rem);
+  }
 }
+
 /*!********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/service.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************/
@@ -3032,12 +3144,12 @@ button.swiper-pagination-bullet {
 
 .section-title h1::before,
 .section-title h1::after {
-    position: absolute;
+    /* position: absolute;
     content: "";
     width: 45px;
     height: 5px;
-    bottom: 0;
-    background: var(--dark);
+    bottom: 0; */
+    background: #f37523;
 }
 
 .section-title h1::before {
@@ -3210,6 +3322,20 @@ button.swiper-pagination-bullet {
 /*!************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/testimonial.css ***!
   \************************************************************************************************************************************************************************************************************************************************************************/
+
+.bg-1c4185 {
+    background-color: #1c4185 !important;
+}
+
+.color-1c4185 {
+    color: #1c4185 !important;
+    font-weight: bold;
+}
+
+.color-f37523 {
+    color: #f37523;
+}
+
 .font-weight-bold {
     font-weight: bold;
 }
@@ -3250,13 +3376,25 @@ button.swiper-pagination-bullet {
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/footer.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
+.color-1c4185 {
+    color: #1c4185;
+}
+
+.color-f37523 {
+    color: #f37523 !important;
+    font-weight: bold;
+}
+
+.bg-f37523 {
+    background-color: #f37523 !important;
+}
+
 .btn-link {
     text-decoration: none !important;
 }
 
 .btn-signup {
     border: none;
-    background-color: darkorange !important;
     color: #fff;
     padding: 10px 14px;
 }
