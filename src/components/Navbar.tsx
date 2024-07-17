@@ -8,8 +8,30 @@ import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import logo from "@/images/Lami_Logo_7_blue background.png";
 import { width } from "@fortawesome/free-solid-svg-icons/fa0";
+import { title } from "process";
 
 export default function Navbar() {
+  const navbars = [
+    {
+      title: "home",
+    },
+    {
+      title: "about",
+    },
+    {
+      title: "services",
+    },
+    {
+      title: "projects",
+    },
+    {
+      title: "blogs",
+    },
+    {
+      title: "contact",
+    },
+  ];
+
   const [fix, setFix] = useState(false);
 
   const setFixed = () => {
@@ -56,31 +78,12 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="/" className="nav-item nav-link active">
-              Home
-            </a>
-            <a href="/about" className="nav-item nav-link text-white">
-              About
-            </a>
-            <a href="/service" className="nav-item nav-link text-white">
-              Service
-            </a>
-            <a href="/project" className="nav-item nav-link text-white">
-              Project
-            </a>
-            {/* <div className="nav-item dropdown">
-                    <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div className="dropdown-menu fade-up m-0">
-                        <a href="feature.html" className="dropdown-item">Feature</a>
-                        <a href="quote.html" className="dropdown-item">Free Quote</a>
-                        <a href="team.html" className="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                        <a href="404.html" className="dropdown-item">404 Page</a>
-                    </div>
-                </div> */}
-            <a href="contact" className="nav-item nav-link text-white">
-              Contact
-            </a>
+            {navbars.map((navbar) => (
+              // <a href="/" className="nav-item nav-link active">
+              <a href="/" className="nav-item nav-link text-white">
+                {navbar.title}
+              </a>
+            ))}
           </div>
           <button className="py-4 px-lg-5 d-none d-lg-block bg-f37523 text-white btn-quote">
             Get A Quote<i className="fa fa-arrow-right ms-3"></i>

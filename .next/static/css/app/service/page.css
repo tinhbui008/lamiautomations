@@ -104,6 +104,100 @@
   }
 }
 
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/service.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+:root {
+    --primary: #AB7442;
+    --light: #F5F5F5;
+    --dark: #353535;
+}
+
+.color-f37523 {
+    color: #f37523;
+    opacity: 0.8;
+}
+
+.color-1c4185 {
+    color: #1c4185 !important;
+    font-weight: bold;
+}
+
+.section-title h1 {
+    position: relative;
+    display: inline-block;
+    padding: 0 60px;
+}
+
+.section-title.text-start h1 {
+    padding-left: 0;
+}
+
+.section-title h1::before,
+.section-title h1::after {
+    /* position: absolute;
+    content: "";
+    width: 45px;
+    height: 5px;
+    bottom: 0; */
+    background: #f37523;
+}
+
+.section-title h1::before {
+    left: 0;
+}
+
+.section-title h1::after {
+    right: 0;
+}
+
+.section-title.text-start h1::before {
+    display: none;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.text-orangered {
+    color: orangered;
+}
+
+.service-item img {
+    transition: .5s;
+}
+
+.service-item:hover img {
+    transform: scale(1.1);
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+
+/*** Feature ***/
+@media (min-width: 992px) {
+    .container.feature {
+        max-width: 100% !important;
+    }
+
+    .feature-text  {
+        padding-left: calc(((100% - 960px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .feature-text  {
+        padding-left: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1400px) {
+    .feature-text  {
+        padding-left: calc(((100% - 1320px) / 2) + .75rem);
+    }
+}
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/footer.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
@@ -226,100 +320,6 @@
 @media (min-width: 1400px) {
     .about-text  {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
-    }
-}
-/*!********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/service.css ***!
-  \********************************************************************************************************************************************************************************************************************************************************************/
-:root {
-    --primary: #AB7442;
-    --light: #F5F5F5;
-    --dark: #353535;
-}
-
-.color-f37523 {
-    color: #f37523;
-    opacity: 0.8;
-}
-
-.color-1c4185 {
-    color: #1c4185 !important;
-    font-weight: bold;
-}
-
-.section-title h1 {
-    position: relative;
-    display: inline-block;
-    padding: 0 60px;
-}
-
-.section-title.text-start h1 {
-    padding-left: 0;
-}
-
-.section-title h1::before,
-.section-title h1::after {
-    /* position: absolute;
-    content: "";
-    width: 45px;
-    height: 5px;
-    bottom: 0; */
-    background: #f37523;
-}
-
-.section-title h1::before {
-    left: 0;
-}
-
-.section-title h1::after {
-    right: 0;
-}
-
-.section-title.text-start h1::before {
-    display: none;
-}
-
-.text-decoration-none {
-    text-decoration: none !important;
-}
-
-.text-orangered {
-    color: orangered;
-}
-
-.service-item img {
-    transition: .5s;
-}
-
-.service-item:hover img {
-    transform: scale(1.1);
-}
-
-.font-weight-bold {
-    font-weight: bold;
-}
-
-
-/*** Feature ***/
-@media (min-width: 992px) {
-    .container.feature {
-        max-width: 100% !important;
-    }
-
-    .feature-text  {
-        padding-left: calc(((100% - 960px) / 2) + .75rem);
-    }
-}
-
-@media (min-width: 1200px) {
-    .feature-text  {
-        padding-left: calc(((100% - 1140px) / 2) + .75rem);
-    }
-}
-
-@media (min-width: 1400px) {
-    .feature-text  {
-        padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
