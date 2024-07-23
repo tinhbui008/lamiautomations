@@ -1,8 +1,6 @@
-/* 
 .section-title h1::after {
-    background: #f37523 !important;
-} */
-
+  background: #f37523 !important;
+}
 .bg-1c4185 {
   background-color: #1c4185 !important;
 }
@@ -38,6 +36,11 @@
 @media (min-width: 992px) {
   .container.about {
     max-width: 100% !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
   }
 
   .about-text {

@@ -10,26 +10,32 @@ import image_service_06 from "@/images/service_06.jpg";
 import "@/styles/service.css";
 const services = [
   {
+    id: 1,
     title: "Custom Machinery Design And ManuFacture",
     imageUrl: image_service_01,
   },
   {
+    id: 2,
     title: "Concept Design And Rapid 3D Modeling",
     imageUrl: image_service_02,
   },
   {
+    id: 3,
     title: "Automation Support And Maintenance",
     imageUrl: image_service_03,
   },
   {
+    id: 4,
     title: "Electrical And Mechanical Installation",
     imageUrl: image_service_04,
   },
   {
+    id: 5,
     title: "Robots And Robotic Automation",
     imageUrl: image_service_05,
   },
   {
+    id: 6,
     title: "Safety Cover",
     imageUrl: image_service_06,
   },
@@ -65,7 +71,7 @@ export default function Service() {
                 </p> */}
                   <a
                     className="fw-medium text-decoration-none text-orangered"
-                    href=""
+                    href={`/service/${item.id}`}
                   >
                     Read More
                     <i className="bi bi-arrow-right px-2 font-weight-bold"></i>

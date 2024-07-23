@@ -1,0 +1,87 @@
+.services {
+  margin: 0;
+}
+
+.services .item {
+  background-color: #333333;
+  list-style-type: none;
+  margin: 2px 0;
+  padding: 12px 0 12px 10px;
+}
+
+.services .item:hover {
+  background-color: #f37523;
+  transition: 0.5s;
+}
+
+.services .item:hover a {
+  color: #fff;
+}
+
+.services .title {
+  list-style-type: none;
+  background-color: #f37523;
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px 0 12px 0;
+  text-align: center;
+}
+
+.services .item a {
+  text-decoration: none;
+  color: #f37523;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.service-wrapper {
+  margin-top: 16px;
+  position: relative;
+}
+
+.service-wrapper .title::before {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 3px;
+  top: 30%;
+  background: #f37523;
+}
+
+.service-wrapper .title {
+  color: #000;
+  font-size: 1.5em;
+}
+
+.service-wrapper .description {
+  margin-top: 30px;
+}
+
+.service-wrapper .description p {
+  font-size: 12px;
+}
+
+@media (max-width: 991.98px) {
+  .service-wrapper {
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .services {
+    display: none !important;
+  }
+
+  .services .item a {
+    font-size: 12px;
+  }
+
+  .service-wrapper .title::before {
+    top: 10%;
+  }
+
+  .service-wrapper .title {
+    font-size: 16px;
+  }
+}

@@ -10,6 +10,7 @@ export default function Project() {
         <div className="section-title text-center">
           <h1 className="display-5 mb-5 font-weight-bold color-f37523">Projects</h1>
         </div>
+        
         {/* <div className="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
             <div className="col-12 text-center">
                 <ul className="list-inline mb-5" id="portfolio-flters">
@@ -19,6 +20,7 @@ export default function Project() {
                 </ul>
             </div>
         </div> */}
+
         <div className="row g-4 portfolio-container">
           <div
             className="col-lg-4 col-md-6 portfolio-item first wow fadeInUp"

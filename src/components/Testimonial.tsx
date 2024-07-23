@@ -15,7 +15,7 @@ export default function Testimonial() {
             <div className="team-item">
               <div className="overflow-hidden position-relative">
                 {/* <img className="img-fluid" src="img/team-1.jpg" alt="" /> */}
-                <Image src={image} alt="" className="img-fluid" />
+                {/* <Image src={image} alt="" className="img-fluid" /> */}
 
                 {/* <div className="team-social">
                   <a className="btn btn-square" href="">
@@ -30,7 +30,7 @@ export default function Testimonial() {
                 </div> */}
               </div>
               <div className="text-center border border-5 border-light border-top-0 p-4">
-                <h5 className="mb-0 color-1c4185">Client Name</h5>
+                <h5 className="mb-0 color-1c4185">Jack</h5>
                 <small>
                   Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
                 </small>
@@ -42,7 +42,7 @@ export default function Testimonial() {
             <div className="team-item">
               <div className="overflow-hidden position-relative">
                 {/* <img className="img-fluid" src="img/team-1.jpg" alt="" /> */}
-                <Image src={image} alt="" className="img-fluid" />
+                {/* <Image src={image} alt="" className="img-fluid" /> */}
 
                 {/* <div className="team-social">
                   <a className="btn btn-square" href="">
@@ -57,7 +57,7 @@ export default function Testimonial() {
                 </div> */}
               </div>
               <div className="text-center border border-5 border-light border-top-0 p-4">
-                <h5 className="mb-0 color-1c4185">Client Name</h5>
+                <h5 className="mb-0 color-1c4185">James</h5>
                 <small>
                   Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
                 </small>
@@ -69,7 +69,7 @@ export default function Testimonial() {
             <div className="team-item">
               <div className="overflow-hidden position-relative">
                 {/* <img className="img-fluid" src="img/team-1.jpg" alt="" /> */}
-                <Image src={image} alt="" className="img-fluid" />
+                {/* <Image src={image} alt="" className="img-fluid" /> */}
 
                 {/* <div className="team-social">
                   <a className="btn btn-square" href="">
@@ -84,7 +84,7 @@ export default function Testimonial() {
                 </div> */}
               </div>
               <div className="text-center border border-5 border-light border-top-0 p-4">
-                <h5 className="mb-0 color-1c4185">Client Name</h5>
+                <h5 className="mb-0 color-1c4185">Jason</h5>
                 <small>
                   Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
                 </small>

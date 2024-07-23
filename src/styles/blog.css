@@ -1,0 +1,36 @@
+.blog {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.blog .content{
+
+}
+
+.blog .content .title{
+    margin: 0;
+}
+
+.blog .content .createtime{
+    margin: 10px 0;
+    font-size: 12px;
+    color: #333333;
+}
+
+.blog .img {
+}
+
+.blog {
+}
+
+.btn-read-more {
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background-color: #f37523;
+    color: #fff;
+}
