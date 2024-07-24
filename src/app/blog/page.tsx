@@ -2,11 +2,13 @@ import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PageHeader from "@/components/PageHeader";
+import TopBar from "@/components/TopBar";
 import React from "react";
 
 export default function page() {
   return (
     <div>
+      <TopBar />
       <Navbar />
       <PageHeader title="Blog" />
 
@@ -15,7 +17,6 @@ export default function page() {
           <div className="col-12">
             <Blog />
           </div>
-          {/* <div className="col-4">Recent Blogs</div> */}
         </div>
       </div>
 
