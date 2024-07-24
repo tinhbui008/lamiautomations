@@ -29,8 +29,13 @@ export default function About() {
                   <h1 className="display-5 mb-4 font-weight-bold color-f37523">
                     About Us
                   </h1>
+                  <p>
+                    My name is <b>Nguyen Van Lam</b>, a mechanical design engineer who
+                    graduated from the Ho Chi Minh City University of Technology
+                    and Education in 2015 ...
+                  </p>
                 </div>
-                <p className="mb-4 pb-2">
+                {/* <p className="mb-4 pb-2">
                   My name is <b>Nguyen Van Lam</b>, a mechanical design engineer
                   who graduated from the Ho Chi Minh City University of
                   Technology and Education in 2015. Since graduating, I have
@@ -103,7 +108,7 @@ export default function About() {
                   needs and the solutions we can provide for your business. We
                   look forward to collaborating with you and contributing to
                   your success.
-                </p>
+                </p> */}
 
                 <div className="row g-4 mb-4 pb-2">
                   <div className="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
@@ -146,11 +151,11 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-                <a className="btn-explore m-3 py-3 px-5 text-white bg-1c4185">
+                <a
+                  href="/about"
+                  className="btn-explore py-3 px-5 text-white bg-1c4185"
+                >
                   Explore More
-                </a>
-                <a className="btn-explore m-3 py-3 px-5 text-white bg-1c4185">
-                  Contact Us
                 </a>
               </div>
             </div>

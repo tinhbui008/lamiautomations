@@ -2196,6 +2196,10 @@ url(/_next/static/media/bootstrap-icons.70a9dee9.woff) format("woff");
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/navbar.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
+.navbar {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
 .text-orange {
   color: orangered;
   font-family: "Saira", sans-serif;
@@ -2995,14 +2999,20 @@ button.swiper-pagination-bullet {
   background-color: #f37523 !important;
 }
 
+.section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .overlay {
-  position:  absolute !important; 
+  position: absolute !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   /* color: #f1f1f1;  */
   top: 0;
   width: 100%;
-  transition: .5s ease;
+  transition: 0.5s ease;
   color: white;
   font-size: 20px;
   padding: 20px;
@@ -3069,7 +3079,7 @@ button.swiper-pagination-bullet {
   padding: 10px 14px;
   color: #fff;
   text-transform: capitalize;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .read_more-button:hover {
@@ -3080,8 +3090,12 @@ button.swiper-pagination-bullet {
 }
 
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: #fff;}
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: #fff;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -3117,6 +3131,13 @@ button.swiper-pagination-bullet {
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/topbar.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/
+.topbar {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: bold !important;
+}
+
 .icon-orange {
   color: orangered !important;
 }
@@ -3124,36 +3145,46 @@ button.swiper-pagination-bullet {
 .color-f37523 {
   color: #f37523;
 }
+
 /*!********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/feature.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************/
-
 .color-f37523 {
-    color: #f37523;
-    opacity: 0.8;
+  color: #f37523;
+  opacity: 0.8;
 }
 
 .text-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .icon-3em {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .color-1c4185 {
-    color: #1c4185 !important;
+  color: #1c4185 !important;
 }
 
 .font-weight__bold {
-    font-weight: bold;
-    opacity: 0.8;
+  font-weight: bold;
+  opacity: 0.8;
 }
 
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 
 /*!******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/about.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************/
+
+.about {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
 .section-title h1::after {
   background: #f37523 !important;
 }

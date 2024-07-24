@@ -8,9 +8,11 @@ export default function Project() {
     <div className="container-xxl py-5">
       <div className="container">
         <div className="section-title text-center">
-          <h1 className="display-5 mb-5 font-weight-bold color-f37523">Projects</h1>
+          <h1 className="display-5 mb-5 font-weight-bold color-f37523">
+            Projects
+          </h1>
         </div>
-        
+
         {/* <div className="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
             <div className="col-12 text-center">
                 <ul className="list-inline mb-5" id="portfolio-flters">
@@ -45,7 +47,9 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 color-1c4185 ">General Carpentry</p>
+                <p className="text-primary fw-medium mb-2 color-1c4185 ">
+                  General Carpentry
+                </p>
                 <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
                 </h6>
@@ -57,7 +61,7 @@ export default function Project() {
             data-wow-delay="0.3s"
           >
             <div className="rounded overflow-hidden">
-            <div className="position-relative overflow-hidden">
+              <div className="position-relative overflow-hidden">
                 {/* <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt="" /> */}
                 <Image src={image} alt="" className="img-fluid w-100" />
                 <div className="portfolio-overlay">
@@ -75,7 +79,9 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 color-1c4185">Custom Carpentry</p>
+                <p className="text-primary fw-medium mb-2 color-1c4185">
+                  Custom Carpentry
+                </p>
                 <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
                 </h6>
@@ -87,7 +93,7 @@ export default function Project() {
             data-wow-delay="0.5s"
           >
             <div className="rounded overflow-hidden">
-            <div className="position-relative overflow-hidden">
+              <div className="position-relative overflow-hidden">
                 {/* <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt="" /> */}
                 <Image src={image} alt="" className="img-fluid w-100" />
                 <div className="portfolio-overlay">
@@ -105,7 +111,9 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 color-1c4185">General Carpentry</p>
+                <p className="text-primary fw-medium mb-2 color-1c4185">
+                  General Carpentry
+                </p>
                 <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
                 </h6>
@@ -117,7 +125,7 @@ export default function Project() {
             data-wow-delay="0.1s"
           >
             <div className="rounded overflow-hidden">
-            <div className="position-relative overflow-hidden">
+              <div className="position-relative overflow-hidden">
                 {/* <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt="" /> */}
                 <Image src={image} alt="" className="img-fluid w-100" />
                 <div className="portfolio-overlay">
@@ -135,7 +143,9 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 color-1c4185">Custom Carpentry</p>
+                <p className="text-primary fw-medium mb-2 color-1c4185">
+                  Custom Carpentry
+                </p>
                 <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
                 </h6>
@@ -147,7 +157,7 @@ export default function Project() {
             data-wow-delay="0.3s"
           >
             <div className="rounded overflow-hidden">
-            <div className="position-relative overflow-hidden">
+              <div className="position-relative overflow-hidden">
                 {/* <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt="" /> */}
                 <Image src={image} alt="" className="img-fluid w-100" />
                 <div className="portfolio-overlay">
@@ -165,7 +175,9 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 color-1c4185">General Carpentry</p>
+                <p className="text-primary fw-medium mb-2 color-1c4185">
+                  General Carpentry
+                </p>
                 <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
                 </h6>
@@ -177,7 +189,7 @@ export default function Project() {
             data-wow-delay="0.5s"
           >
             <div className="rounded overflow-hidden">
-            <div className="position-relative overflow-hidden">
+              <div className="position-relative overflow-hidden">
                 {/* <img className="img-fluid w-100" src="img/portfolio-1.jpg" alt="" /> */}
                 <Image src={image} alt="" className="img-fluid w-100" />
                 <div className="portfolio-overlay">
@@ -195,7 +207,9 @@ export default function Project() {
                 </div>
               </div>
               <div className="border border-5 border-light border-top-0 p-4">
-                <p className="text-primary fw-medium mb-2 color-1c4185">Custom Carpentry</p>
+                <p className="text-primary fw-medium mb-2 color-1c4185">
+                  Custom Carpentry
+                </p>
                 <h6 className="lh-base mb-0">
                   Wooden Furniture Manufacturing And Remodeling
                 </h6>

@@ -6,7 +6,7 @@ export default function TopBar() {
   return (
     <div>
       <div className="container-fluid bg-light p-0">
-        <div className="row gx-0 d-none d-lg-flex">
+        <div className="row gx-0 d-none d-lg-flex topbar">
           <div className="col-lg-7 px-5 text-start">
             <div className="h-100 d-inline-flex align-items-center py-3 me-4">
               <small className="me-2">

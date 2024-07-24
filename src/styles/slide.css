@@ -10,15 +10,21 @@
   background-color: #f37523 !important;
 }
 
+.section {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .overlay {
-  position:  absolute !important; 
+  position: absolute !important;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   /* color: #f1f1f1;  */
   top: 0;
   width: 100%;
-  transition: .5s ease;
-  opacity:0;
+  transition: 0.5s ease;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;
@@ -86,7 +92,7 @@
   padding: 10px 14px;
   color: #fff;
   text-transform: capitalize;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .read_more-button:hover {
@@ -97,8 +103,12 @@
 }
 
 @keyframes example {
-  from {background-color: red;}
-  to {background-color: #fff;}
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: #fff;
+  }
 }
 
 @media (max-width: 991.98px) {
