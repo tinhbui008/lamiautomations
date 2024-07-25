@@ -15,7 +15,7 @@
 
 .blog .content {
   width: 100%;
-    position: relative;
+  position: relative;
 }
 
 .blog .content .description {
@@ -58,6 +58,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 80px;
+    gap: 10px;
   }
 
   .blog .img {
