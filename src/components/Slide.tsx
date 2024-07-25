@@ -10,9 +10,21 @@ import "swiper/css/scrollbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { images } from "@/lib/images";
 import "@/styles/slide.css";
+import { motion } from "framer-motion";
+import useEmblaCarousel from "embla-carousel-react";
 
 export default function Slide() {
+  const [emblaRef] = useEmblaCarousel();
+
   return (
+    // <div className="embla" ref={emblaRef}>
+    //   <div className="embla__container">
+    //     <div className="embla__slide">Slide 1</div>
+    //     <div className="embla__slide">Slide 2</div>
+    //     <div className="embla__slide">Slide 3</div>
+    //   </div>
+    // </div>
+
     <section className="h-60vh">
       <Swiper
         autoplay={{ delay: 12000, disableOnInteraction: false }}
@@ -35,7 +47,14 @@ export default function Slide() {
                   no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
                   elitr.
                 </p>
-                <button className="read_more-button">Read more</button>
+                <motion.button
+                  className="read_more-button"
+                  whileHover={{ scale: 1.2 }}
+                  onHoverStart={(e) => {}}
+                  onHoverEnd={(e) => {}}
+                >
+                  Read more
+                </motion.button>
               </div>
             </div>
           </SwiperSlide>

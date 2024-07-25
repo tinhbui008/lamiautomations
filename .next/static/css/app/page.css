@@ -2209,6 +2209,7 @@ url(/_next/static/media/bootstrap-icons.70a9dee9.woff) format("woff");
   outline: none;
   border: none;
   height: 100% !important;
+  text-decoration: none;
 }
 
 .bg-orange {
@@ -3123,11 +3124,6 @@ button.swiper-pagination-bullet {
     font-size: 14px;
   }
 }
-/* 
-@media (min-width: 992px) {
-
-} */
-
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/styles/topbar.css ***!
   \*******************************************************************************************************************************************************************************************************************************************************************/

@@ -54,7 +54,7 @@ export default function Navbar() {
   useEffect(() => {
     setFixed();
     window.addEventListener("scroll", setFixed);
-    // window.removeEventListener("scroll", setFixed);
+    window.removeEventListener("scroll", setFixed);
   }, [fix]);
 
   const pathName = usePathname();
@@ -109,9 +109,9 @@ export default function Navbar() {
               );
             })}
           </div>
-          <button className="py-4 px-lg-5 d-none d-lg-block bg-f37523 text-white btn-quote">
+          <a href="/contact" className="py-4 px-lg-5 d-none d-lg-block bg-f37523 text-white btn-quote">
             Get A Quote<i className="fa fa-arrow-right ms-3"></i>
-          </button>
+          </a>
         </div>
       </nav>
     </div>

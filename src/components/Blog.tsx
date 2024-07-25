@@ -27,7 +27,7 @@ export default function Blog() {
             significantly impact the decision.
           </p>
 
-          <button className="btn-read-more">read more</button>
+          <a href="/blog/1" className="btn-read-more">read more</a>
         </div>
       </div>
 
@@ -52,7 +52,7 @@ export default function Blog() {
             significantly impact the decision.
           </p>
 
-          <button className="btn-read-more">read more</button>
+          <a href="/blog/2" className="btn-read-more">read more</a>
         </div>
       </div>
 
@@ -73,7 +73,7 @@ export default function Blog() {
             on Investment ROI calculation to decide if the Automation cost 
           </p>
 
-          <button className="btn-read-more">read more</button>
+          <a href="/blog/3" className="btn-read-more">read more</a>
         </div>
       </div>
 
@@ -98,7 +98,7 @@ export default function Blog() {
             significantly impact the decision.
           </p>
 
-          <button className="btn-read-more">read more</button>
+          <a href="/blog/4" className="btn-read-more">read more</a>
         </div>
       </div>
     </div>

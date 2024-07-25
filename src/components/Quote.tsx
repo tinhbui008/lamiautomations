@@ -54,7 +54,7 @@ export default function Quote() {
                   </div>
                   <div className="col-12 col-sm-6">
                     <select
-                      defaultValue={2}
+                      defaultValue={1}
                       className="form-select border-0"
                       style={{ height: "55px" }}
                     >
