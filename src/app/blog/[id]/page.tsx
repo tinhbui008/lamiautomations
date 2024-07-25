@@ -9,7 +9,7 @@ export default function page() {
     <div>
       <Navbar />
       <PageHeader title="Blog Detail" />
-      {/* <div className="container">
+      <div className="container">
         <div className="row">
           <div className="col-9">
             <BlogDetail />
@@ -19,7 +19,7 @@ export default function page() {
             <BlogRelated />
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
