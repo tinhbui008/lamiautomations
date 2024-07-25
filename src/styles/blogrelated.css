@@ -1,4 +1,5 @@
 .related-blog {
+  padding: 6px 0;
   max-width: 100%;
   background-color: #000;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -24,10 +25,10 @@
 .related-blog ul li.title a::before {
     position: absolute;
     content: '';
-    width: 30%;
+    width: 15%;
     height: 3px;
-    bottom: 0;
-    background-color: #fff;
+    bottom: -4px;
+    background-color: #f37523;
 }
 
 .related-blog ul li.title a {
@@ -44,4 +45,9 @@
 .related-blog ul li a {
   text-decoration: none;
   color: #f37523;
+  font-size: 14px;
+}
+
+.bordeor-bttom {
+  border-bottom: 1px solid #fff;
 }

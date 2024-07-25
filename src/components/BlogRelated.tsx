@@ -9,64 +9,64 @@ export default function BlogRelated() {
           <a href="">Related Blog</a>
         </li>
 
-        <li>
-          <a href="">Related Title 01</a>
+        <li className="border-bottom">
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
 
-        <li>
-          <a href="">Related Title 01</a>
+        <li className="border-bottom">
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
 
-        <li>
-          <a href="">Related Title 01</a>
+        <li className="border-bottom">
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
 
-        <li>
-          <a href="">Related Title 01</a>
-        </li>
-      </ul>
-
-      <ul>
-        <li className="title">
-          <a href="">Related Blog</a>
-        </li>
-
-        <li>
-          <a href="">Related Title 01</a>
-        </li>
-
-        <li>
-          <a href="">Related Title 01</a>
-        </li>
-
-        <li>
-          <a href="">Related Title 01</a>
-        </li>
-
-        <li>
-          <a href="">Related Title 01</a>
+        <li className="border-bottom">
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
       </ul>
 
       <ul>
         <li className="title">
-          <a href="">Related Blog</a>
+          <a href="">Categories</a>
         </li>
 
         <li>
-          <a href="">Related Title 01</a>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
 
         <li>
-          <a href="">Related Title 01</a>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
 
         <li>
-          <a href="">Related Title 01</a>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
 
         <li>
-          <a href="">Related Title 01</a>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
+        </li>
+      </ul>
+
+      <ul>
+        <li className="title">
+          <a href="">Tags</a>
+        </li>
+
+        <li>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
+        </li>
+
+        <li>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
+        </li>
+
+        <li>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
+        </li>
+
+        <li>
+          <a href="">Related Title 01 Related Title 01 Related Title 01</a>
         </li>
       </ul>
     </div>

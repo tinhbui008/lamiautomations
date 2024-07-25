@@ -14,7 +14,7 @@ export default function PageHeader(props: propsType) {
         <h1 className="display-3 text-white mb-3 animated slideInDown">
           {title}
         </h1>
-        <nav aria-label="breadcrumb animated slideInDown">
+        {/* <nav aria-label="breadcrumb animated slideInDown">
           <ul className="breadcrumb">
             <li className="breadcrumb-item">
               <a className="text-white" href="/">
@@ -26,14 +26,8 @@ export default function PageHeader(props: propsType) {
                 Pages
               </a>
             </li>
-            {/* <li
-              className="breadcrumb-item text-white active"
-              aria-current="page"
-            >
-              About
-            </li> */}
           </ul>
-        </nav>
+        </nav> */}
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import BlogDetail from "@/components/BlogDetail";
 import BlogRelated from "@/components/BlogRelated";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import PageHeader from "@/components/PageHeader";
 import React from "react";
@@ -11,15 +12,16 @@ export default function page() {
       <PageHeader title="Blog Detail" />
       <div className="container">
         <div className="row">
-          <div className="col-9">
+          <div className="col-lg-8 col-md-8 col-xs-12">
             <BlogDetail />
           </div>
 
-          <div className="col-3">
+          <div className="col-lg-4 col-md-4 col-xs-12">
             <BlogRelated />
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
